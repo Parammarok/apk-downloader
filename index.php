@@ -6,7 +6,7 @@ ini_set('display_startup_errors', 1);
 ignore_user_abort(true);
 ini_set('default_socket_timeout', 6000);
 error_reporting(E_ALL);
-ini_set("memory_limit", "4500M");
+ini_set("memory_limit", "512M");
 
 
 $directoryName = 'files';
